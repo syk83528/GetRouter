@@ -1,0 +1,33 @@
+{
+  "name": "RTNavigationController",
+  "version": "5.3.3",
+  "license": {
+    "type": "MIT"
+  },
+  "homepage": "https://www.iwecon.cc",
+  "authors": "Pansitong iWw",
+  "platforms": {
+    "ios": "10.0"
+  },
+  "summary": "RTNavigationController fork from https://github.com/rickytan/RTNavigationController\n\nMore and more apps use custom navigation bar for each different view controller, instead of one common, gloabal navigation bar.\nThis project just help develops to solve this problem in a tricky way, develops use this navigation controller in a farmilar way just like you used to be, and\nyou can have each view controller a individual navigation bar.",
+  "source": {
+    "git": "https://github.com/iWECon/RTNavigationController.git",
+    "tag": "5.3.3"
+  },
+  "source_files": [
+    "Sources/*.{h,m}"
+  ],
+  "resource_bundles": {
+    "RTNavigationController": [
+      "Sources/RTNavigationController/*.xcassets"
+    ]
+  },
+  "public_header_files": [
+    "Sources/include/*.h"
+  ],
+  "cocoapods_version": ">= 1.10.0",
+  "frameworks": [
+    "UIKit",
+    "Foundation"
+  ]
+}

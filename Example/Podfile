@@ -4,6 +4,8 @@ platform :ios, '10.0'
 
 target 'GetRouter_Example' do
   pod 'GetRouter', :path => '../'
+  
+  pod 'RTNavigationController', :git => 'https://github.com/iWECon/RTNavigationController'
 
   target 'GetRouter_Tests' do
     inherit! :search_paths

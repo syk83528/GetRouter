@@ -1,16 +1,26 @@
 PODS:
   - GetRouter (0.1.0)
+  - RTNavigationController (5.3.3)
 
 DEPENDENCIES:
   - GetRouter (from `../`)
+  - RTNavigationController (from `https://github.com/iWECon/RTNavigationController`)
 
 EXTERNAL SOURCES:
   GetRouter:
     :path: "../"
+  RTNavigationController:
+    :git: https://github.com/iWECon/RTNavigationController
+
+CHECKOUT OPTIONS:
+  RTNavigationController:
+    :commit: 2a05cedac041d42ef079dd5ad96e748ee951c382
+    :git: https://github.com/iWECon/RTNavigationController
 
 SPEC CHECKSUMS:
   GetRouter: 06725daf6e3d272033be864ea5ad4614411abca0
+  RTNavigationController: 096f3957445b9109edd6514d81f7ce5f4b672fd8
 
-PODFILE CHECKSUM: 9d9699681e17bbd2be05c383f9cda778d172cd02
+PODFILE CHECKSUM: fdaa434d008d3df2d954e5c7fe56d5c016989b4b
 
 COCOAPODS: 1.11.3

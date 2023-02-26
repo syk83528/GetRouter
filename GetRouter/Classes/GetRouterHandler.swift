@@ -38,6 +38,7 @@ struct GetRougerHandler {
                             DispatchQueue.main.async {
                                 page.action?(params)
                             }
+                            return
                         }
                     }
                     getRouterllog("路由无法被解析")

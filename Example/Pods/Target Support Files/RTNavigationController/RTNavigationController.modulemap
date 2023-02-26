@@ -1,0 +1,6 @@
+framework module RTNavigationController {
+  umbrella header "RTNavigationController-umbrella.h"
+
+  export *
+  module * { export * }
+}

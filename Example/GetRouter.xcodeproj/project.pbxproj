@@ -10,9 +10,17 @@
 		3F7FB53129AB203100959A21 /* ExampleItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F7FB53029AB203100959A21 /* ExampleItemCell.swift */; };
 		3F7FB53529AB20D100959A21 /* ExampleItemModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F7FB53429AB20D100959A21 /* ExampleItemModel.swift */; };
 		3F7FB53829AB212B00959A21 /* Router+Common.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F7FB53729AB212B00959A21 /* Router+Common.swift */; };
+		3F7FB53E29AB2D3C00959A21 /* Appdelegate+Root.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F7FB53D29AB2D3C00959A21 /* Appdelegate+Root.swift */; };
+		3F7FB54229AB2F3400959A21 /* TestHomePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F7FB54129AB2F3400959A21 /* TestHomePage.swift */; };
+		3F7FB54729AB2F6000959A21 /* BaseTablePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F7FB54629AB2F6000959A21 /* BaseTablePage.swift */; };
+		3F7FB54C29AB325200959A21 /* UIViewController+Push.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F7FB54B29AB325200959A21 /* UIViewController+Push.swift */; };
+		3F7FB54E29AB34CC00959A21 /* Router+Test.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F7FB54D29AB34CC00959A21 /* Router+Test.swift */; };
+		3F7FB55229AB3CB300959A21 /* GetRouterMiddlewareLogin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F7FB55129AB3CB300959A21 /* GetRouterMiddlewareLogin.swift */; };
+		3F7FB55429AB3CBE00959A21 /* GetRouterMiddlewareMale.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F7FB55329AB3CBE00959A21 /* GetRouterMiddlewareMale.swift */; };
+		3F7FB55629AB3CC800959A21 /* GetRouterMiddlewareFemale.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F7FB55529AB3CC800959A21 /* GetRouterMiddlewareFemale.swift */; };
+		3F7FB55829AB3CD100959A21 /* GetRouterMiddlewareVip.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F7FB55729AB3CD100959A21 /* GetRouterMiddlewareVip.swift */; };
 		607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD51AFB9204008FA782 /* AppDelegate.swift */; };
 		607FACD81AFB9204008FA782 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD71AFB9204008FA782 /* ViewController.swift */; };
-		607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 607FACD91AFB9204008FA782 /* Main.storyboard */; };
 		607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDC1AFB9204008FA782 /* Images.xcassets */; };
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
 		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
@@ -34,11 +42,19 @@
 		3F7FB53029AB203100959A21 /* ExampleItemCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleItemCell.swift; sourceTree = "<group>"; };
 		3F7FB53429AB20D100959A21 /* ExampleItemModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleItemModel.swift; sourceTree = "<group>"; };
 		3F7FB53729AB212B00959A21 /* Router+Common.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Router+Common.swift"; sourceTree = "<group>"; };
+		3F7FB53D29AB2D3C00959A21 /* Appdelegate+Root.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Appdelegate+Root.swift"; sourceTree = "<group>"; };
+		3F7FB54129AB2F3400959A21 /* TestHomePage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestHomePage.swift; sourceTree = "<group>"; };
+		3F7FB54629AB2F6000959A21 /* BaseTablePage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseTablePage.swift; sourceTree = "<group>"; };
+		3F7FB54B29AB325200959A21 /* UIViewController+Push.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Push.swift"; sourceTree = "<group>"; };
+		3F7FB54D29AB34CC00959A21 /* Router+Test.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Router+Test.swift"; sourceTree = "<group>"; };
+		3F7FB55129AB3CB300959A21 /* GetRouterMiddlewareLogin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetRouterMiddlewareLogin.swift; sourceTree = "<group>"; };
+		3F7FB55329AB3CBE00959A21 /* GetRouterMiddlewareMale.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetRouterMiddlewareMale.swift; sourceTree = "<group>"; };
+		3F7FB55529AB3CC800959A21 /* GetRouterMiddlewareFemale.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetRouterMiddlewareFemale.swift; sourceTree = "<group>"; };
+		3F7FB55729AB3CD100959A21 /* GetRouterMiddlewareVip.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetRouterMiddlewareVip.swift; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* GetRouter_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GetRouter_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		607FACD71AFB9204008FA782 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		607FACDA1AFB9204008FA782 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		607FACDC1AFB9204008FA782 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		607FACDF1AFB9204008FA782 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		607FACE51AFB9204008FA782 /* GetRouter_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GetRouter_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -89,8 +105,8 @@
 		3F7FB52D29AB1F6700959A21 /* Main */ = {
 			isa = PBXGroup;
 			children = (
-				3F7FB52F29AB1F7300959A21 /* View */,
-				3F7FB52E29AB1F6E00959A21 /* Model */,
+				607FACD51AFB9204008FA782 /* AppDelegate.swift */,
+				3F7FB53D29AB2D3C00959A21 /* Appdelegate+Root.swift */,
 			);
 			name = Main;
 			sourceTree = "<group>";
@@ -111,12 +127,102 @@
 			name = View;
 			sourceTree = "<group>";
 		};
-		3F7FB53629AB211A00959A21 /* Router */ = {
+		3F7FB53A29AB2CE600959A21 /* Module */ = {
 			isa = PBXGroup;
 			children = (
+				3F7FB53F29AB2F1A00959A21 /* Test */,
+				3F7FB53B29AB2CF700959A21 /* Root */,
+			);
+			name = Module;
+			sourceTree = "<group>";
+		};
+		3F7FB53B29AB2CF700959A21 /* Root */ = {
+			isa = PBXGroup;
+			children = (
+				3F7FB54F29AB3C8C00959A21 /* Router */,
+				3F7FB52F29AB1F7300959A21 /* View */,
+				3F7FB52E29AB1F6E00959A21 /* Model */,
+				607FACD71AFB9204008FA782 /* ViewController.swift */,
+			);
+			name = Root;
+			sourceTree = "<group>";
+		};
+		3F7FB53C29AB2D1700959A21 /* CommonModule */ = {
+			isa = PBXGroup;
+			children = (
+				3F7FB54829AB322D00959A21 /* extension */,
+				3F7FB54329AB2F4400959A21 /* Base */,
+			);
+			name = CommonModule;
+			sourceTree = "<group>";
+		};
+		3F7FB53F29AB2F1A00959A21 /* Test */ = {
+			isa = PBXGroup;
+			children = (
+				3F7FB54D29AB34CC00959A21 /* Router+Test.swift */,
+				3F7FB54029AB2F1F00959A21 /* Pages */,
+			);
+			name = Test;
+			sourceTree = "<group>";
+		};
+		3F7FB54029AB2F1F00959A21 /* Pages */ = {
+			isa = PBXGroup;
+			children = (
+				3F7FB54129AB2F3400959A21 /* TestHomePage.swift */,
+			);
+			name = Pages;
+			sourceTree = "<group>";
+		};
+		3F7FB54329AB2F4400959A21 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				3F7FB54629AB2F6000959A21 /* BaseTablePage.swift */,
+			);
+			name = Base;
+			sourceTree = "<group>";
+		};
+		3F7FB54829AB322D00959A21 /* extension */ = {
+			isa = PBXGroup;
+			children = (
+				3F7FB54929AB323300959A21 /* uikit */,
+			);
+			name = extension;
+			sourceTree = "<group>";
+		};
+		3F7FB54929AB323300959A21 /* uikit */ = {
+			isa = PBXGroup;
+			children = (
+				3F7FB54A29AB323C00959A21 /* UIViewController */,
+			);
+			name = uikit;
+			sourceTree = "<group>";
+		};
+		3F7FB54A29AB323C00959A21 /* UIViewController */ = {
+			isa = PBXGroup;
+			children = (
+				3F7FB54B29AB325200959A21 /* UIViewController+Push.swift */,
+			);
+			name = UIViewController;
+			sourceTree = "<group>";
+		};
+		3F7FB54F29AB3C8C00959A21 /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				3F7FB55029AB3C9400959A21 /* Middleware */,
 				3F7FB53729AB212B00959A21 /* Router+Common.swift */,
 			);
 			name = Router;
+			sourceTree = "<group>";
+		};
+		3F7FB55029AB3C9400959A21 /* Middleware */ = {
+			isa = PBXGroup;
+			children = (
+				3F7FB55129AB3CB300959A21 /* GetRouterMiddlewareLogin.swift */,
+				3F7FB55329AB3CBE00959A21 /* GetRouterMiddlewareMale.swift */,
+				3F7FB55529AB3CC800959A21 /* GetRouterMiddlewareFemale.swift */,
+				3F7FB55729AB3CD100959A21 /* GetRouterMiddlewareVip.swift */,
+			);
+			name = Middleware;
 			sourceTree = "<group>";
 		};
 		607FACC71AFB9204008FA782 = {
@@ -143,11 +249,9 @@
 		607FACD21AFB9204008FA782 /* Example for GetRouter */ = {
 			isa = PBXGroup;
 			children = (
-				3F7FB53629AB211A00959A21 /* Router */,
+				3F7FB53C29AB2D1700959A21 /* CommonModule */,
+				3F7FB53A29AB2CE600959A21 /* Module */,
 				3F7FB52D29AB1F6700959A21 /* Main */,
-				607FACD51AFB9204008FA782 /* AppDelegate.swift */,
-				607FACD71AFB9204008FA782 /* ViewController.swift */,
-				607FACD91AFB9204008FA782 /* Main.storyboard */,
 				607FACDC1AFB9204008FA782 /* Images.xcassets */,
 				607FACDE1AFB9204008FA782 /* LaunchScreen.xib */,
 				607FACD31AFB9204008FA782 /* Supporting Files */,
@@ -288,7 +392,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */,
 				607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */,
 				607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */,
 			);
@@ -334,10 +437,12 @@
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-GetRouter_Example/Pods-GetRouter_Example-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/GetRouter/GetRouter.framework",
+				"${BUILT_PRODUCTS_DIR}/RTNavigationController/RTNavigationController.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GetRouter.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RTNavigationController.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -375,9 +480,18 @@
 			files = (
 				607FACD81AFB9204008FA782 /* ViewController.swift in Sources */,
 				3F7FB53829AB212B00959A21 /* Router+Common.swift in Sources */,
+				3F7FB54C29AB325200959A21 /* UIViewController+Push.swift in Sources */,
 				3F7FB53129AB203100959A21 /* ExampleItemCell.swift in Sources */,
+				3F7FB55229AB3CB300959A21 /* GetRouterMiddlewareLogin.swift in Sources */,
 				607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */,
+				3F7FB53E29AB2D3C00959A21 /* Appdelegate+Root.swift in Sources */,
+				3F7FB54E29AB34CC00959A21 /* Router+Test.swift in Sources */,
+				3F7FB54229AB2F3400959A21 /* TestHomePage.swift in Sources */,
+				3F7FB54729AB2F6000959A21 /* BaseTablePage.swift in Sources */,
+				3F7FB55429AB3CBE00959A21 /* GetRouterMiddlewareMale.swift in Sources */,
 				3F7FB53529AB20D100959A21 /* ExampleItemModel.swift in Sources */,
+				3F7FB55629AB3CC800959A21 /* GetRouterMiddlewareFemale.swift in Sources */,
+				3F7FB55829AB3CD100959A21 /* GetRouterMiddlewareVip.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -400,14 +514,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		607FACD91AFB9204008FA782 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				607FACDA1AFB9204008FA782 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		607FACDE1AFB9204008FA782 /* LaunchScreen.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -464,7 +570,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -510,7 +616,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
@@ -525,7 +631,6 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = FK4PHF763J;
 				INFOPLIST_FILE = GetRouter/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
@@ -542,7 +647,6 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = FK4PHF763J;
 				INFOPLIST_FILE = GetRouter/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
