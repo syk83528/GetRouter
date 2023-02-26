@@ -1,0 +1,6 @@
+framework module GetRouter {
+  umbrella header "GetRouter-umbrella.h"
+
+  export *
+  module * { export * }
+}

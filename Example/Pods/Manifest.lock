@@ -1,0 +1,16 @@
+PODS:
+  - GetRouter (0.1.0)
+
+DEPENDENCIES:
+  - GetRouter (from `../`)
+
+EXTERNAL SOURCES:
+  GetRouter:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  GetRouter: 06725daf6e3d272033be864ea5ad4614411abca0
+
+PODFILE CHECKSUM: 9d9699681e17bbd2be05c383f9cda778d172cd02
+
+COCOAPODS: 1.11.3
