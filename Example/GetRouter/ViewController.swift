@@ -58,7 +58,7 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         let model = items[indexPath.row]
-        GetRouter.to(name: model.name)
+        GetRouter.to(name: model.T)
     }
     // MARK: - ----------------------------------ui
     private let table = UITableView()

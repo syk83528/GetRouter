@@ -126,8 +126,17 @@ final public class GetRouter {
 }
 
 
-public func getRouterllog(_ paramter: Any) {
-//#if DEBUG || TEST || BETA
-print("Router:___\(paramter)")
+public func getRouterllog(_ paramter: Any, file : String = #file, funcName : String = #function, lineNum : Int = #line) {
+//#if DEBUG
+    // 创建一个日期格式器
+    let formatter = DateFormatter()
+    // 为日期格式器设置格式字符串
+    formatter.dateFormat = "HH:mm:ss"
+    // 使用日期格式器格式化当前日期、时间
+    let datestr = formatter.string(from: Date())
+
+    let fileName = (file as NSString).lastPathComponent
+
+    print("Router: [\(datestr)]-[\(fileName)][第\(lineNum)行] \n\(paramter)")
 //#endif
 }
