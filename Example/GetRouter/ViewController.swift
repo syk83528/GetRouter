@@ -41,8 +41,9 @@ class ViewController: BaseTablePage<ExampleItemModel> {
     
     override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         let model = items[indexPath.row]
+        GetRouter.to(name: model.T)
 //        GetRouter.to(name: .home1, params: ["userId": 2222])
-        GetRouter.to(url: "native://?ios_router=/common/home1&userId=2222")
+//        GetRouter.to(url: "native://?ios_router=/common/home1&userId=2222")
     }
     // MARK: - ----------------------------------ui
 }
