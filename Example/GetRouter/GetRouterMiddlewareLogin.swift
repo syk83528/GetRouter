@@ -13,6 +13,9 @@ class GetRouterMiddlewareLogin: GetRouterMiddleware {
     
     override func handler(routeName: GetRouterName, params: GetDict?) -> Bool {
         let isLogin = Bool.random()
+        if !isLogin {
+            print("未登录")
+        }
         return isLogin
     }
 }

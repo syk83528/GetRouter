@@ -10,7 +10,6 @@ import Foundation
 import GetRouter
 
 extension GetRouterName {
-    /// 回到根路由 选择tab
     static let tabSelect: GetRouterName = "/common/tabSelect"
     static let test: GetRouterName = "/common/test"
     static let home1: GetRouterName = "/common/home1"
@@ -31,6 +30,13 @@ struct GetRouterCommonHandler: GetRouterHandlerSource {
                     GetRouterMiddlewareLogin(priority: 1)
                 ],
                 action: { params in
+                    if let userId = params?["userId"] as? Int {
+                        
+                    } else if let userId = params?["userId"] as? String {
+                        
+                    } else {
+                        return
+                    }
                     TestHomePage().push()
                 }),
         GetPage(name: .home2,
