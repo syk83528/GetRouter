@@ -22,6 +22,7 @@ Pod::Spec.new do |s|
 
   s.source_files = 'GetRouter/Classes/**/*'
   
+  s.swift_version = "5.0"
   # s.resource_bundles = {
   #   'GetRouter' => ['GetRouter/Assets/*.png']
   # }
