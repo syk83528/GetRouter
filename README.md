@@ -17,7 +17,7 @@ GetRouter is available through [CocoaPods](https://cocoapods.org). To install
 it, simply add the following line to your Podfile:
 
 ```ruby
-pod 'GetRouter', :git => "https://github.com/syk83528/GetRouter.git", :tag => "0.0.2"
+pod 'GetRouter', :git => "https://github.com/syk83528/GetRouter.git"
 ```
 
 ## prepare
