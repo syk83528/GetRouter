@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'GetRouter'
-  s.version          = '0.1.0'
+  s.version          = '1.0.2'
   s.summary          = 'A short description of GetRouter.'
 
 # This description is used to generate tags and improve search results.
@@ -18,8 +18,7 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
-                       DESC
+                        这是一个swift的路由组件
 
   s.homepage         = 'https://github.com/syk83528/GetRouter'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
