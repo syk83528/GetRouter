@@ -9,16 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'GetRouter'
   s.version          = '1.0.2'
-  s.summary          = 'A short description of GetRouter.'
-
-# This description is used to generate tags and improve search results.
-#   * Think: What does it do? Why did you write it? What is the focus?
-#   * Try to keep it short, snappy and to the point.
-#   * Write the description between the DESC delimiters below.
-#   * Finally, don't worry about the indent, CocoaPods strips it!
-
-  s.description      = <<-DESC
-                        这是一个swift的路由组件
+  s.summary          = '无侵入的Swift路由组件'
 
   s.homepage         = 'https://github.com/syk83528/GetRouter'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
@@ -27,7 +18,7 @@ Pod::Spec.new do |s|
   s.source           = { :git => 'https://github.com/syk83528/GetRouter.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '10.0'
+  s.ios.deployment_target = '9.0'
 
   s.source_files = 'GetRouter/Classes/**/*'
   
