@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'GetRouter'
-  s.version          = '1.0.2'
+  s.version          = '1.0.3'
   s.summary          = '无侵入的Swift路由组件'
 
   s.homepage         = 'https://github.com/syk83528/GetRouter'
