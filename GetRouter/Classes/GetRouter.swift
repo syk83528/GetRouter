@@ -15,7 +15,7 @@ struct GetRouterConfig {
     var routeNameKey: String = "ios_path"
 }
 
-public typealias GetDict = [String: Any]
+public typealias GetDict = [String: Any?]
 
 final public class GetRouter {
     // MARK: - --------------------------------------singleton

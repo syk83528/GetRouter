@@ -5,11 +5,6 @@
 [![License](https://img.shields.io/cocoapods/l/GetRouter.svg?style=flat)](https://cocoapods.org/pods/GetRouter)
 [![Platform](https://img.shields.io/cocoapods/p/GetRouter.svg?style=flat)](https://cocoapods.org/pods/GetRouter)
 
-## Example
-
-To run the example project, clone the repo, and run `pod install --repo-update` from the Example directory first.
-
-
 ## Installation
 
 ```ruby
@@ -19,9 +14,9 @@ pod 'GetRouter'
 // 终端中:
 pod install --repo-update
 ```
-
-
-
+## 很纯粹的路由组件
+提供一个无侵入的路由解析组件,本组件不涉及跳转操作,只用来解析路由,匹配路由,权限拦截.
+文件查看顺序: GetRouter->GetRouterName->GetRouterHandler->GetRouterMiddleware
 ## prepare
 
 ```Swift
