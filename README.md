@@ -47,6 +47,9 @@ extension GetRouterName {
 struct GetRouterCommonHandler: GetRouterHandlerSource {
     var pages: [GetPage] = [
         GetPage(name: .test,
+                middlewares: [
+                    GetRouterMiddlewareVip(priority: 1),
+                ],
                 action: { params in
                     TestHomePage().push()
                 }
@@ -54,7 +57,7 @@ struct GetRouterCommonHandler: GetRouterHandlerSource {
     ]
 }
 ```
-## 中间件
+## 中间件拦截(权限校验)
 ```Swift
 // 同步
 class GetRouterMiddlewareLogin: GetRouterMiddleware {
