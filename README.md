@@ -7,18 +7,20 @@
 
 ## Example
 
-To run the example project, clone the repo, and run `pod install` from the Example directory first.
+To run the example project, clone the repo, and run `pod install --repo-update` from the Example directory first.
 
-## Requirements
 
 ## Installation
 
-GetRouter is available through [CocoaPods](https://cocoapods.org). To install
-it, simply add the following line to your Podfile:
-
 ```ruby
-pod 'GetRouter', :git => "https://github.com/syk83528/GetRouter.git"
+// Podfile:
+pod 'GetRouter'
+
+// 终端中:
+pod install --repo-update
 ```
+
+
 
 ## prepare
 
