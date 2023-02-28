@@ -9,7 +9,7 @@
 
 ```ruby
 // Podfile:
-pod 'GetRouter'
+pod 'GetRouter', '1.0.5'
 
 // 终端中:
 pod install --repo-update
